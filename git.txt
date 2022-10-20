@@ -14,23 +14,14 @@ git branch -M main
 git remote add origin https://github.com/HowardChung55/pages-demo.git
 #7 最後注意：把原本的 main 換成 master
 git push -u origin master
-- - -
+
 # 把新增在目錄的檔案全部記錄下來後，上傳 - X
 git add *
 git commit -m "Add WebPages"
 git push origin
 
-這裡加了 --rebase 參數是表示「內容抓下來之後請使用 Rebase 方式合併」，當然你想用一般的合併方式也沒問題。合併如果沒發生衝突，接著應該就可以順利往上推了。
+# 這裡加了 --rebase 參數是表示「內容抓下來之後請使用 Rebase 方式合併」，當然你想用一般的合併方式也沒問題。合併如果沒發生衝突，接著應該就可以順利往上推了。
 $ git pull --rebase
 
-只要加上了 --force 或是 -f 參數，它就會強迫硬推上去
+# 只要加上了 --force 或是 -f 參數，它就會強迫硬推上去
 $ git push -f
-
-
-
-
-
-
-
-
-
