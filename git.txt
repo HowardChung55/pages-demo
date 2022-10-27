@@ -1,17 +1,23 @@
-暫存：
+暫存：(缺 - 上傳更新)
 
 #1 創建一個README.md的檔案：
 echo "# pages-demo" >> README.md
+
 #2 Git初始化：
 git init
+
 #3 新增檔案：
 git add README.md
+
 #4 輸入commit訊息：
 git commit -m "first commit"
+
 #5 分支：
 git branch -M main
+
 #6 Remote位置：
 git remote add origin https://github.com/HowardChung55/pages-demo.git
+
 #7 最後注意：把原本的 main 換成 master
 git push -u origin master
 
